@@ -7,7 +7,7 @@ app.get("/api/v1/health", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello, World!");
+  res.send("Hello, World!h");
 });
 
 app.listen(port, () => {
